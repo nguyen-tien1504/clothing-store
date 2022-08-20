@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: var(--ff-1);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button {
+  width: 100%;
+  font-family: var(--ff-1);
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hover:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #ccc;
+}

@@ -1,0 +1,47 @@
+@media (max-width: 993px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side-bar-container {
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .page-container {
+    margin-top: 88px;
+    margin-left: 0;
+  }
+
+  .page-item-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 470px) {
+  .page-banner-collection {
+    display: none;
+  }
+
+  .page-banner-name {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 418px) {
+  .page-store-container {
+    text-align: left;
+  }
+
+  .page-banner-name {
+    font-size: 35px;
+  }
+}
